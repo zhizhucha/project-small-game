@@ -1,7 +1,7 @@
 include(CheckCXXCompilerFlag)
 
 macro(
-  myproject_enable_hardening
+  project_small_game_enable_hardening
   target
   global
   ubsan_minimal_runtime)
